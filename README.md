@@ -20,5 +20,3 @@ The system is designed to manage customers, products, and purchases through a co
 - Java
 - IntelliJ IDEA
 ---
-
-## 📂 File Structure (Basic)
