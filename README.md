@@ -118,4 +118,4 @@ The system manages customers, products, sellers, and purchases through a console
             >
             > 6. ## 👥 Authors
             >
-            > 7. - **Shawn Farberov** & **Arthur** — developed as a collaborative academic project
+            > 7. - **Shawn Farberov** & **Arthur Vayner** — developed as a collaborative academic project
