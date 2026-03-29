@@ -24,13 +24,13 @@ The system manages customers, products, sellers, and purchases through a console
 
             | Pattern | Classes |
             |---|---|
-            | **Facade** | `StoreFacade` — single entry point for all store operations |
-            | **Singleton** | `StoreFacade.getInstance()` — one shared store instance |
+            | **Facade** | `StoreFacade` - single entry point for all store operations |
+            | **Singleton** | `StoreFacade.getInstance()` - one shared store instance |
             | **Factory** | `CustomerFactory`, `SellerFactory`, `ProductFactory`, `AddressFactory` |
             | **Command** | `Command` interface + `PrintNamesCommand`, `CopyArrayCommand`, `ReverseArrayCommand`, `SortNamesCommand`, `NameCounterCommand`, `SaveListCommand`, `RestoreListCommand` |
             | **Observer** | `Observer` / `Subject` interfaces for event-driven updates |
-            | **Adapter** | `CustomListIteratorAdapter` — adapts a custom list to standard iterator |
-            | **Memento** | `Manager` (with inner `Memento` class) — saves and restores list state |
+            | **Adapter** | `CustomListIteratorAdapter` - adapts a custom list to standard iterator |
+            | **Memento** | `Manager` (with inner `Memento` class) - saves and restores list state |
 
             ---
 
@@ -39,7 +39,7 @@ The system manages customers, products, sellers, and purchases through a console
             ```
             OOP-OOD---Project/
             │
-            ├── Main2.java                      # Entry point — console menu
+            ├── Main2.java                      # Entry point - console menu
             │
             ├── Models
             │   ├── User.java                   # Base class for store users
@@ -85,7 +85,7 @@ The system manages customers, products, sellers, and purchases through a console
             >
             > - **Language:** Java 17+
             > - - **IDE:** IntelliJ IDEA
-            >   - - **Build:** No build tool required — compile and run directly with `javac`
+            >   - - **Build:** No build tool required - compile and run directly with `javac`
             >    
             >     - ---
             >
@@ -118,4 +118,4 @@ The system manages customers, products, sellers, and purchases through a console
             >
             > 6. ## 👥 Authors
             >
-            > 7. - **Shawn Farberov** & **Arthur Vayner** — developed as a collaborative academic project
+            > 7. - **Shawn Farberov** & **Arthur Vayner** - developed as a collaborative academic project
